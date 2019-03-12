@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\WAR_OF_TANKS.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{0BDFE5D4-5CDE-4227-AC84-5F8785B4A0A7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\WAR_OF_TANKS.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\WAR_OF_TANKSEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{8EBA8DE6-4257-458B-A3F2-FF0AE0D0B3F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\WAR_OF_TANKS">
+      <UniqueIdentifier>{1110AEB3-C0A6-46A5-8504-70A6D105295F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\WAR_OF_TANKS\WAR_OF_TANKS.Build.cs">
+      <Filter>Source\WAR_OF_TANKS</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\WAR_OF_TANKS\WAR_OF_TANKS.cpp">
+      <Filter>Source\WAR_OF_TANKS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WAR_OF_TANKS\WAR_OF_TANKS.h">
+      <Filter>Source\WAR_OF_TANKS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WAR_OF_TANKS\WAR_OF_TANKSGameModeBase.cpp">
+      <Filter>Source\WAR_OF_TANKS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WAR_OF_TANKS\WAR_OF_TANKSGameModeBase.h">
+      <Filter>Source\WAR_OF_TANKS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
